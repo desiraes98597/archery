@@ -115,6 +115,31 @@ blockquote {
   font-size:1.5em;
 }
 
+/* skip to content link */
+
+.hidden{
+  position:relative;
+  left: -100000px;
+  top:auto;
+
+}
+
+
+.hidden:focus {
+   left:0;
+}
+
+/* screen reader only */
+.sr-only {
+  position: absolute;
+  left: -100000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  
+}
+
 /* main content */
 /* ********************************************************************* */
 /* index page right side */
