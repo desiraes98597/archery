@@ -7,10 +7,12 @@
          <link rel="stylesheet" type="text/css" href="styles/style.css">
 <body>
 
+  <a href="#main-content" class="hidden"> Skip to main content </a>
+
   <!-- HEADER -->
 <header class="grid">
   <div class="col span_1_of_12">
-   <img src="images/archeryAcademy-logo-white.png" alt="logo">
+   <img src="images/archeryAcademy-logo-white.png" alt="LOGO - white bullseye with an arrow and Archery Academy in block letters">
   </div>
 </header>
 
@@ -29,13 +31,16 @@
 
 <!-- MAIN CONTENT -->
 
- <main  >
+ <main id="main-content" ><span class="sr-only">This first item is a video of a tree blowing in the wind </span>
   <div class="col span_8_of_12">
-    <video width="420" height="340" controls>
-      <source src="images/Tree_in_the_mist.mp4" type="video/mp4">   
-      <source src="images/Tree_in_the_mist.ogv" type="video/ogv">    
-    Your browser does not support the video tag.
-    </video>
+ 
+    <video src="images/Tree_in_the mist.mp4" poster="images/tree.PNG" width="420" controls>
+    
+        <source src="images/Tree_in_the_mist.ogv" type="video/ogv">    
+              Your browser does not support the video tag.
+      </video>
+  
+ 
  
       <h4>Watch a really cool tree in the wind video</h4>
    </div>
@@ -69,10 +74,10 @@
  </main>
 
  <!-- FOOTER -->
- <footer class="grid">
+ <footer class="grid" role="contentinfo">
    <div class="col span_9_of_12">
-     <img class="logo-image" src="images/archeryAcademy-logo-white.png"  alt="image of quivers on arrows">
-      <img class="background" src="images/footerImage.jpg"  alt="image of quivers on arrows">  
+     <img class="logo-image" src="images/archeryAcademy-logo-white.png"  alt="white bullseye with an arrow and Archery Academy in block letters">
+      <img class="background" src="images/footerImage.jpg"  alt="large image light and dark blue with quivers on arrows and contact info for site">  
   <div class="address">
      <h3>Straight to the Point Archery</h3>
         <p>528 Nock Point Ln</p>
